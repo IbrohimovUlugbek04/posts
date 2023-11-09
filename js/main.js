@@ -19,4 +19,4 @@ function renderPosts(arr, startNumber, endNumber, node) {
 
 fetch("https://jsonplaceholder.typicode.com/posts")
   .then(response => response.json())
-  .then(data => renderPosts(data, 0, 21, elList));
+  .then(data => renderPosts(data, 0, 20, elList));
